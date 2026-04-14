@@ -6,7 +6,7 @@ const path = require('path');
 // ==========================================
 // CONFIGURACION - Solo cambia esto
 const GEMINI_API_KEY = 'AIzaSyAhx5N-4pxfzAxTqxcUfR3MAi_3w_tM_Zo';
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 // ==========================================
 
 const PROMPT = `Eres un nutricionista experto analizando imágenes para contar calorías.
